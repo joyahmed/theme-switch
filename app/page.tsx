@@ -1,6 +1,6 @@
 import React, { lazy } from 'react';
 const ThemeSwitch = lazy(
-	() => import('@/app/_components/ThemeSwitch')
+	() => import('@/_components/ThemeSwitch')
 );
 
 const HomePage = () => {
